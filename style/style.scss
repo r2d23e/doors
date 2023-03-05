@@ -25,12 +25,13 @@ $bg: #F1F5F8CC;
 }
 
 .wrap {
-    width: 100%;
+    width: 1920px;
     height: 2000px;
+    margin: 0 auto;
 
     header {
         margin: 0 auto;
-        width: 100%;
+        width: 1920px;
         position: fixed;
         display: flex;
         justify-content: space-evenly;
@@ -46,7 +47,7 @@ $bg: #F1F5F8CC;
             width: 65%;
 
             ul {
-                width: 100%;
+                width: 1200px;
                 justify-content: space-between;
                 display: flex;
 
@@ -70,7 +71,7 @@ $bg: #F1F5F8CC;
         align-items: center;
 
         .con {
-            width: 100%;
+            width: 1920px;
             height: 100%;
             display: flex;
             justify-content: space-evenly;
@@ -212,7 +213,7 @@ $bg: #F1F5F8CC;
     }
 
     .sec2 {
-        width: 100%;
+        width: 1920px;
         height: 1000px;
         display: flex;
         align-items: center;
@@ -362,6 +363,94 @@ $bg: #F1F5F8CC;
                 }
 
             }
+        }
+    }
+
+    .sek3 {
+        width: 1920px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+
+        .oo {
+            width: 1424px;
+            height: 377px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .oo h2 {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 65px;
+                text-align: center;
+                color: #252D35;
+            }
+
+            .oo p {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                color: #252D35;
+                width: 888px;
+            }
+        }
+        .ro {
+            width: 1424px;
+            height: 209px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .kub {
+                width: 177px;
+                height: 201px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                transition: 500ms;
+                .kub h3 {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 61px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    color: #252D35;
+                    transition: 500ms;
+                }
+                
+                .kub p {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #252D35;
+                    width: 177px;
+                    transition: 500ms;
+                }
+                
+                .kub img {
+                    transition: 500ms;
+                }
+            }
+        }
+        .ro :hover {
+            box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.458);
+            cursor: pointer;
         }
     }
 }

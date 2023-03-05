@@ -11,12 +11,13 @@
   src: url(../font/Gilroy-Regular.ttf);
 }
 .wrap {
-  width: 100%;
+  width: 1920px;
   height: 2000px;
+  margin: 0 auto;
 }
 .wrap header {
   margin: 0 auto;
-  width: 100%;
+  width: 1920px;
   position: fixed;
   display: flex;
   justify-content: space-evenly;
@@ -31,7 +32,7 @@
   width: 65%;
 }
 .wrap header .navbar ul {
-  width: 100%;
+  width: 1200px;
   justify-content: space-between;
   display: flex;
 }
@@ -53,7 +54,7 @@
   align-items: center;
 }
 .wrap .sec1 .con {
-  width: 100%;
+  width: 1920px;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -186,7 +187,7 @@
   color: #252D35;
 }
 .wrap .sec2 {
-  width: 100%;
+  width: 1920px;
   height: 1000px;
   display: flex;
   align-items: center;
@@ -337,4 +338,519 @@
   font-size: 16px;
   line-height: 20px;
   color: #252D35;
-}/*# sourceMappingURL=style.css.map */
+}
+.wrap .sek3 {
+  width: 1920px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.wrap .sek3 .oo {
+  width: 1424px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .sek3 .oo .oo h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+  color: #252D35;
+}
+.wrap .sek3 .oo .oo p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #252D35;
+  width: 888px;
+}
+.wrap .sek3 .ro {
+  width: 1424px;
+  height: 209px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrap .sek3 .ro .kub {
+  width: 177px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 500ms;
+}
+.wrap .sek3 .ro .kub .kub h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #252D35;
+  transition: 500ms;
+}
+.wrap .sek3 .ro .kub .kub p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #252D35;
+  width: 177px;
+  transition: 500ms;
+}
+.wrap .sek3 .ro .kub .kub img {
+  transition: 500ms;
+}
+.wrap .sek3 .ro :hover {
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.458);
+  cursor: pointer;
+}
+.sek3 {
+  width: 1920px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.oo {
+  width: 1424px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.oo h2 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+  color: #252D35;
+}
+
+.oo p {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #252D35;
+  width: 888px;
+}
+
+.ro {
+  width: 1424px;
+  height: 209px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.kub {
+  width: 177px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 500ms;
+}
+
+.ro :hover {
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.458);
+  cursor: pointer;
+}
+
+.kub h3 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #252D35;
+  transition: 500ms;
+}
+
+.kub p {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #252D35;
+  width: 177px;
+  transition: 500ms;
+}
+
+.kub img {
+  transition: 500ms;
+}
+
+.sek4 {
+  width: 1920px;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.rt {
+  width: 1500px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tr1 {
+  width: 696px;
+  height: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tr1 h3 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 75px;
+  color: #B8884B;
+}
+
+.tr1 h3 span {
+  color: #252D35;
+}
+
+.tr1 p {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+  width: 466px;
+}
+
+.re {
+  width: 293px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #B8884B;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B8884B;
+  transition: 500ms;
+}
+
+.re span {
+  font-size: 20px;
+}
+
+.re:hover {
+  border: 2px solid #FFFFFF;
+  background: #B8884B;
+  color: #FFFFFF;
+}
+
+.tr2 {
+  height: 700px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.tr2 img{
+  transition: 500ms;
+}
+.tr2 :hover{
+  filter: blur(5px);
+}
+
+.sek5 {
+  width: 1920px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.protent {
+  width: 1520px;
+  height: 463px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(250px);
+  background-color: rgba(0, 0, 0, 0.208);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lol {
+  width: 625px;
+  height: 363px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 710px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pro {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  color: #252D35;
+}
+
+.pro span {
+  color: #B8884B;
+}
+
+.zoy {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+}
+.punt{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.sel {
+  width: 240px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #252D35;
+  background-image: url(../img/Vector\ \(6\).svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-left: 40px;
+}
+
+.but {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 800ms;
+}
+.but:hover{
+  rotate: 360deg;
+}
+
+.styl {
+  position: absolute;
+  width: 100px;
+  left: 100px;
+  top: 70px;
+  animation: ret 10s infinite ease-in;
+}
+.styl2 {
+  position: absolute;
+  width: 50px;
+  left: 550px;
+  top: 60px;
+  rotate: 190deg;
+  animation: ret1 11s infinite ease-in;
+}
+.styl3 {
+  position: absolute;
+  width: 70px;
+  left: 100px;
+  top: 300px;
+  rotate: 190deg;
+  animation: ret2 10s infinite ease-in;
+}
+.styl4 {
+  position: absolute;
+  width: 50px;
+  left: 600px;
+  top: 350px;
+  rotate: 180deg;
+  animation: ret3 11s infinite ease;
+}
+@keyframes ret{
+0%{
+  left: 100px;
+  top: 70px;
+}
+25%{
+  width: 50px;
+  left: 550px;
+  top: 60px;
+  rotate: 190deg;}
+50%{
+  width: 70px;
+  left: 100px;
+  top: 300px;
+  rotate: 190deg;
+}
+75%{
+  width: 50px;
+  left: 600px;
+  top: 350px;
+  rotate: 180deg;
+}
+100%{
+  width: 100px;
+  left: 100px;
+  top: 70px;
+}
+}
+@keyframes ret1{
+  0%{
+     width: 50px;
+      left: 550px;
+      top: 60px;
+      rotate: 190deg; 
+  }
+  25%{
+      width: 70px;
+      left: 100px;
+      top: 300px;
+      rotate: 190deg;
+  }
+  50%{
+      width: 50px;
+      left: 600px;
+      top: 350px;
+      rotate: 180deg;
+  }
+  75%{
+      left: 100px;
+      top: 70px;
+  }
+  100%{
+      width: 50px;
+      left: 550px;
+      top: 60px;
+      rotate: 190deg;
+  }
+}
+@keyframes ret2{
+  0%{
+     width: 70px;
+      left: 100px;
+      top: 300px;
+      rotate: 190deg; 
+  }
+  25%{
+      width: 50px;
+      left: 600px;
+      top: 350px;
+      rotate: 180deg;
+  }
+  50%{
+      left: 100px;
+      top: 70px;
+  }
+  75%{
+      width: 50px;
+      left: 550px;
+      top: 60px;
+      rotate: 190deg;
+  }
+  100%{
+      width: 70px;
+      left: 100px;
+      top: 300px;
+      rotate: 190deg; 
+  }
+}
+@keyframes ret3{
+  0%{
+       width: 50px;
+      left: 600px;
+      top: 350px;
+      rotate: 180deg;
+  }
+  25%{
+     left: 100px;
+      top: 70px;
+  }
+  50%{
+      width: 50px;
+      left: 550px;
+      top: 60px;
+      rotate: 190deg;
+  }
+  75%{
+      width: 70px;
+      left: 100px;
+      top: 300px;
+      rotate: 190deg; 
+  }
+  100%{
+      width: 50px;
+      left: 600px;
+      top: 350px;
+      rotate: 180deg;
+  }
+}
+.styl1{
+  transition: 1s;
+  animation: ret4 3s infinite ease-in-out;
+}
+@keyframes ret4{
+  0%{
+      rotate: 0deg;
+  }
+  100%{
+      rotate: 360deg;
+  }
+}
+/*# sourceMappingURL=style.css.map */
